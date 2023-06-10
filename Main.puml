@@ -1,0 +1,813 @@
+@startuml
+class com.example.simon.databinding.ActivitySearching8Binding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button detect
++ EditText editTextImage
++ Button getImage
++ ImageView imageView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ ConstraintLayout getRoot()
++ {static} ActivitySearching8Binding inflate(LayoutInflater)
++ {static} ActivitySearching8Binding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySearching8Binding bind(View)
+}
+class com.example.simon.databinding.ActivitySearching7Binding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button detect
++ EditText editTextImage
++ Button getImage
++ ImageView imageView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ ConstraintLayout getRoot()
++ {static} ActivitySearching7Binding inflate(LayoutInflater)
++ {static} ActivitySearching7Binding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySearching7Binding bind(View)
+}
+class com.example.simon.databinding.ActivityLoginRoleBinding {
+- ConstraintLayout rootView
++ ConstraintLayout constraintLayout1
++ ConstraintLayout constraintLayout2
++ ConstraintLayout constraintLayout3
++ ImageView imageView2
++ ImageView imageView3
++ ImageView imageView4
++ TextView textView2
++ TextView textView3
++ TextView textView4
++ TextView textView5
++ ConstraintLayout getRoot()
++ {static} ActivityLoginRoleBinding inflate(LayoutInflater)
++ {static} ActivityLoginRoleBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityLoginRoleBinding bind(View)
+}
+class com.example.simon.Searching5 {
+~ ActivityMainBinding binding
+~ EditText editTextImage
+~ StorageReference storageReference
+~ ProgressDialog progressDialog
+~ ImageView imageView
+~ Button getImage
+~ String dateTime
+~ SimpleDateFormat simpleDateFormat
+~ Calendar calendar
+~ DatabaseReference ref
+# void onCreate(Bundle)
+}
+class com.example.simon.databinding.ActivityRegisterBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button buttonRegister
++ EditText editTextEmail
++ EditText editTextName
++ EditText editTextNomor
++ EditText editTextPassword
++ EditText editTextUsername
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ ConstraintLayout getRoot()
++ {static} ActivityRegisterBinding inflate(LayoutInflater)
++ {static} ActivityRegisterBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityRegisterBinding bind(View)
+}
+class com.example.simon.databinding.ActivitySearching4Binding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button detect
++ EditText editTextImage
++ Button getImage
++ ImageView imageView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ ConstraintLayout getRoot()
++ {static} ActivitySearching4Binding inflate(LayoutInflater)
++ {static} ActivitySearching4Binding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySearching4Binding bind(View)
+}
+class com.example.simon.databinding.ActivityRegisterAdminBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button buttonRegister
++ EditText editTextEmail
++ EditText editTextName
++ EditText editTextNomor
++ EditText editTextPassword
++ EditText editTextUsername
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ ConstraintLayout getRoot()
++ {static} ActivityRegisterAdminBinding inflate(LayoutInflater)
++ {static} ActivityRegisterAdminBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityRegisterAdminBinding bind(View)
+}
+class com.example.simon.Recording {
+~ BottomNavigationView bottomNavigationView
+# void onCreate(Bundle)
+}
+class com.example.simon.databinding.ActivitySearching6Binding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button detect
++ EditText editTextImage
++ Button getImage
++ ImageView imageView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ ConstraintLayout getRoot()
++ {static} ActivitySearching6Binding inflate(LayoutInflater)
++ {static} ActivitySearching6Binding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySearching6Binding bind(View)
+}
+class com.example.simon.databinding.ActivitySearching5Binding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button detect
++ EditText editTextImage
++ Button getImage
++ ImageView imageView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ ConstraintLayout getRoot()
++ {static} ActivitySearching5Binding inflate(LayoutInflater)
++ {static} ActivitySearching5Binding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySearching5Binding bind(View)
+}
+class com.example.simon.Constants {
+- {static} String ROOT_URL
++ {static} String URL_REGISTER
++ {static} String URL_REGISTER_ADMIN
++ {static} String URL_REGISTER_MANAGER
++ {static} String URL_LOGIN
++ {static} String URL_LOGIN_MANAGER
++ {static} String URL_LOGIN_ADMIN
+}
+class com.example.simon.Profile {
+~ BottomNavigationView bottomNavigationView
+~ TextView textViewUsername
+# void onCreate(Bundle)
+}
+class com.example.simon.databinding.ActivityProfileManagerBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout constraintLayout
++ ConstraintLayout constraintLayout2
++ ConstraintLayout constraintLayout3
++ ConstraintLayout constraintLayout4
++ ImageView imageView2
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ TextView textView4
++ TextView textView5
++ TextView textView6
++ TextView textViewEmail
++ TextView textViewNama
++ TextView textViewNomor
++ TextView textViewUsername
++ ConstraintLayout getRoot()
++ {static} ActivityProfileManagerBinding inflate(LayoutInflater)
++ {static} ActivityProfileManagerBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityProfileManagerBinding bind(View)
+}
+class com.example.simon.RegisterAdmin {
+- EditText editTextName
+- Button buttonRegister
+- ProgressDialog progressDialog
+# void onCreate(Bundle)
+- void registerUser()
++ void onClick(View)
+}
+class com.example.simon.ExampleInstrumentedTest {
++ void useAppContext()
+}
+class com.example.simon.LoginAdmin {
+- EditText editTextUsername
+- Button buttonLogin
+# void onCreate(Bundle)
++ void userLogin()
++ void onClick(View)
+}
+class androidx.databinding.library.baseAdapters.BR {
++ {static} int _all
+}
+class com.example.simon.databinding.ActivityMessageManagerBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout1
++ ListView listView
++ TextView textView2
++ ConstraintLayout getRoot()
++ {static} ActivityMessageManagerBinding inflate(LayoutInflater)
++ {static} ActivityMessageManagerBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityMessageManagerBinding bind(View)
+}
+class com.example.simon.databinding.ActivityLoginAdminBinding {
+- LinearLayout rootView
++ Button buttonLogin
++ EditText editTextPassword
++ EditText editTextUsername
++ LinearLayout getRoot()
++ {static} ActivityLoginAdminBinding inflate(LayoutInflater)
++ {static} ActivityLoginAdminBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityLoginAdminBinding bind(View)
+}
+class com.example.simon.Camera {
+~ BottomNavigationView bottomNavigationView
+~ androidx.constraintlayout.widget.ConstraintLayout btn
+# void onCreate(Bundle)
+}
+class com.example.simon.MessageManager {
+~ ListView listView
+~ ArrayList<String> myArrayList
+~ DatabaseReference mRef
+~ BottomNavigationView bottomNavigationView
+# void onCreate(Bundle)
+}
+class com.example.simon.Message {
+~ ListView listView
+~ ArrayList<String> myArrayList
+~ DatabaseReference mRef
+~ BottomNavigationView bottomNavigationView
+# void onCreate(Bundle)
+}
+class com.example.simon.Searching7 {
+~ ActivityMainBinding binding
+~ EditText editTextImage
+~ StorageReference storageReference
+~ ProgressDialog progressDialog
+~ ImageView imageView
+~ Button getImage
+~ String dateTime
+~ SimpleDateFormat simpleDateFormat
+~ Calendar calendar
+~ DatabaseReference ref
+# void onCreate(Bundle)
+}
+class com.example.simon.databinding.ActivityMessageBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout1
++ ListView listView
++ TextView textView2
++ ConstraintLayout getRoot()
++ {static} ActivityMessageBinding inflate(LayoutInflater)
++ {static} ActivityMessageBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityMessageBinding bind(View)
+}
+class com.example.simon.Searching4 {
+~ ActivityMainBinding binding
+~ EditText editTextImage
+~ StorageReference storageReference
+~ ProgressDialog progressDialog
+~ ImageView imageView
+~ Button getImage
+~ String dateTime
+~ SimpleDateFormat simpleDateFormat
+~ Calendar calendar
+~ DatabaseReference ref
+# void onCreate(Bundle)
+}
+class com.example.simon.Searching1 {
+~ EditText editTextImage
+~ StorageReference storageReference
+~ ProgressDialog progressDialog
+~ ImageView imageView
+~ Button getImage
+~ String dateTime
+~ SimpleDateFormat simpleDateFormat
+~ Calendar calendar
+~ DatabaseReference ref
+# void onCreate(Bundle)
+}
+class com.example.simon.databinding.ActivityLoginManagerBinding {
+- LinearLayout rootView
++ Button buttonLogin
++ EditText editTextPassword
++ EditText editTextUsername
++ LinearLayout getRoot()
++ {static} ActivityLoginManagerBinding inflate(LayoutInflater)
++ {static} ActivityLoginManagerBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityLoginManagerBinding bind(View)
+}
+class com.example.simon.DataBindingTriggerClass {
+}
+class com.example.simon.databinding.ActivityMessageAdminBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout1
++ ListView listView
++ TextView textView2
++ ConstraintLayout getRoot()
++ {static} ActivityMessageAdminBinding inflate(LayoutInflater)
++ {static} ActivityMessageAdminBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityMessageAdminBinding bind(View)
+}
+class com.example.simon.databinding.ActivitySplashBinding {
+- RelativeLayout rootView
++ RelativeLayout splashScreen
++ RelativeLayout getRoot()
++ {static} ActivitySplashBinding inflate(LayoutInflater)
++ {static} ActivitySplashBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySplashBinding bind(View)
+}
+class com.example.simon.databinding.ActivitySettingBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout1
++ ConstraintLayout linearLayout2
++ Switch switch1
++ TextView textView2
++ TextView textView3
++ TextView textView4
++ TextView textView5
++ ConstraintLayout getRoot()
++ {static} ActivitySettingBinding inflate(LayoutInflater)
++ {static} ActivitySettingBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySettingBinding bind(View)
+}
+class com.example.simon.LoginManager {
+- EditText editTextUsername
+- Button buttonLogin
+# void onCreate(Bundle)
++ void userLogin()
++ void onClick(View)
+}
+class com.example.simon.Register {
+- EditText editTextName
+- Button buttonRegister
+- ProgressDialog progressDialog
+# void onCreate(Bundle)
+- void registerUser()
++ void onClick(View)
+}
+class com.example.simon.databinding.ActivityMainBinding {
+- LinearLayout rootView
++ Button buttonLogin
++ EditText editTextPassword
++ EditText editTextUsername
++ LinearLayout getRoot()
++ {static} ActivityMainBinding inflate(LayoutInflater)
++ {static} ActivityMainBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityMainBinding bind(View)
+}
+class com.example.simon.Searching8 {
+~ ActivityMainBinding binding
+~ EditText editTextImage
+~ StorageReference storageReference
+~ ProgressDialog progressDialog
+~ ImageView imageView
+~ Button getImage
+~ String dateTime
+~ SimpleDateFormat simpleDateFormat
+~ Calendar calendar
+~ DatabaseReference ref
+# void onCreate(Bundle)
+}
+class com.example.simon.BuildConfig {
++ {static} boolean DEBUG
++ {static} String APPLICATION_ID
++ {static} String BUILD_TYPE
++ {static} int VERSION_CODE
++ {static} String VERSION_NAME
+}
+class com.example.simon.BR {
++ {static} int _all
+}
+class com.example.simon.databinding.ActivityRecordingBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button getImage2
++ Button getImage3
++ ImageView imageView
++ ConstraintLayout linearLayout
++ TextView textView
++ TextView textView2
++ VideoView videoView2
++ VideoView videoView3
++ VideoView videoView4
++ VideoView videoView5
++ ConstraintLayout getRoot()
++ {static} ActivityRecordingBinding inflate(LayoutInflater)
++ {static} ActivityRecordingBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityRecordingBinding bind(View)
+}
+class com.example.simon.databinding.ActivityProfileAdminBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout constraintLayout
++ ConstraintLayout constraintLayout2
++ ConstraintLayout constraintLayout3
++ ConstraintLayout constraintLayout4
++ ImageView imageView2
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ TextView textView4
++ TextView textView5
++ TextView textView6
++ TextView textViewEmail
++ TextView textViewNama
++ TextView textViewNomor
++ TextView textViewUsername
++ ConstraintLayout getRoot()
++ {static} ActivityProfileAdminBinding inflate(LayoutInflater)
++ {static} ActivityProfileAdminBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityProfileAdminBinding bind(View)
+}
+class com.example.simon.DataBinderMapperImpl {
+- {static} SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP
++ ViewDataBinding getDataBinder(DataBindingComponent,View,int)
++ ViewDataBinding getDataBinder(DataBindingComponent,View[],int)
++ int getLayoutId(String)
++ String convertBrIdToString(int)
++ List<DataBinderMapper> collectDependencies()
+}
+class com.example.simon.DataBinderMapperImpl$InnerBrLookup {
+~ {static} SparseArray<String> sKeys
+}
+class com.example.simon.DataBinderMapperImpl$InnerLayoutIdLookup {
+~ {static} HashMap<String,Integer> sKeys
+}
+interface androidx.databinding.DataBindingComponent {
+}
+class com.example.simon.MainActivity2 {
+~ androidx.constraintlayout.widget.ConstraintLayout btn
+~ BottomNavigationView bottomNavigationView
+# void onCreate(Bundle)
+}
+class com.example.simon.databinding.ActivityRegisterManagerBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button buttonRegister
++ EditText editTextEmail
++ EditText editTextName
++ EditText editTextNomor
++ EditText editTextPassword
++ EditText editTextUsername
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ ConstraintLayout getRoot()
++ {static} ActivityRegisterManagerBinding inflate(LayoutInflater)
++ {static} ActivityRegisterManagerBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityRegisterManagerBinding bind(View)
+}
+class com.example.simon.databinding.ImageItemBinding {
+- CardView rootView
++ ImageView imageView
++ TextView textViewName
++ CardView getRoot()
++ {static} ImageItemBinding inflate(LayoutInflater)
++ {static} ImageItemBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ImageItemBinding bind(View)
+}
+class com.example.simon.SharedPrefManager {
+- {static} SharedPrefManager instance
+- {static} Context ctx
+- {static} String SHARED_PREF_NAME
+- {static} String KEY_USERNAME
+- {static} String KEY_EMAIL
+- {static} String KEY_ID
+- {static} String KEY_NAME
+- {static} String KEY_NOMOR_TELP
++ {static} SharedPrefManager getInstance(Context)
++ boolean userLogin(int,String,String,String,String)
++ boolean isLoggedIn()
++ String getUsername()
++ String getUserEmail()
++ String getNamaLengkap()
++ String getNomorTelp()
+}
+class com.example.simon.RequestHandler {
+- {static} RequestHandler instance
+- RequestQueue mRequestQueue
+- {static} Context ctx
++ {static} RequestHandler getInstance(Context)
++ RequestQueue getRequestQueue()
++ void addToRequestQueue(Request<T>)
+}
+class com.example.simon.ProfileManager {
+~ BottomNavigationView bottomNavigationView
+~ TextView textViewUsername
+# void onCreate(Bundle)
+}
+class com.example.simon.RegisterManager {
+- EditText editTextName
+- Button buttonRegister
+- ProgressDialog progressDialog
+# void onCreate(Bundle)
+- void registerUser()
++ void onClick(View)
+}
+class com.example.simon.Searching2 {
+~ ActivityMainBinding binding
+~ {static} EditText editTextImage
+~ StorageReference storageReference
+~ ProgressDialog progressDialog
+~ ImageView imageView
+~ Button getImage
+~ String dateTime
+~ SimpleDateFormat simpleDateFormat
+~ Calendar calendar
+~ DatabaseReference ref
+# void onCreate(Bundle)
+}
+class com.example.simon.LoginRole {
+~ androidx.constraintlayout.widget.ConstraintLayout btn
+# void onCreate(Bundle)
+}
+class com.example.simon.MainActivity {
+- EditText editTextUsername
+- Button buttonLogin
+# void onCreate(Bundle)
++ void userLogin()
++ void onClick(View)
+}
+class com.example.simon.SplashActivity {
+# void onCreate(Bundle)
+}
+class com.example.simon.ExampleUnitTest {
++ void addition_isCorrect()
+}
+class com.example.simon.Searching3 {
+~ EditText editTextImage
+~ StorageReference storageReference
+~ ProgressDialog progressDialog
+~ ImageView imageView
+~ Button getImage
+~ String dateTime
+~ SimpleDateFormat simpleDateFormat
+~ Calendar calendar
+~ DatabaseReference ref
+# void onCreate(Bundle)
+}
+class com.example.simon.Searching6 {
+~ ActivityMainBinding binding
+~ EditText editTextImage
+~ StorageReference storageReference
+~ ProgressDialog progressDialog
+~ ImageView imageView
+~ Button getImage
+~ String dateTime
+~ SimpleDateFormat simpleDateFormat
+~ Calendar calendar
+~ DatabaseReference ref
+# void onCreate(Bundle)
+}
+class com.example.simon.AdminHome {
+~ BottomNavigationView bottomNavigationView
+~ androidx.constraintlayout.widget.ConstraintLayout btn
+# void onCreate(Bundle)
+}
+class com.example.simon.ProfileAdmin {
+~ BottomNavigationView bottomNavigationView
+~ TextView textViewUsername
+# void onCreate(Bundle)
+}
+class com.example.simon.MessageAdmin {
+~ ListView listView
+~ ArrayList<String> myArrayList
+~ DatabaseReference mRef
+~ BottomNavigationView bottomNavigationView
+# void onCreate(Bundle)
+}
+class com.example.simon.databinding.ActivityMain2Binding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout constraintLayout
++ ConstraintLayout constraintLayout2
++ ConstraintLayout constraintLayout3
++ ImageView imageView
++ ImageView imageView2
++ ConstraintLayout linearLayout
++ TextView textView
++ TextView textView2
++ TextView textView3
++ TextView textView4
++ TextView textView5
++ ConstraintLayout getRoot()
++ {static} ActivityMain2Binding inflate(LayoutInflater)
++ {static} ActivityMain2Binding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityMain2Binding bind(View)
+}
+class com.example.simon.Setting {
+~ BottomNavigationView bottomNavigationView
+# void onCreate(Bundle)
+}
+class com.example.simon.databinding.ActivityProfileBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout constraintLayout
++ ConstraintLayout constraintLayout2
++ ConstraintLayout constraintLayout3
++ ConstraintLayout constraintLayout4
++ ImageView imageView2
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ TextView textView4
++ TextView textView5
++ TextView textView6
++ TextView textViewEmail
++ TextView textViewNama
++ TextView textViewNomor
++ TextView textViewUsername
++ ConstraintLayout getRoot()
++ {static} ActivityProfileBinding inflate(LayoutInflater)
++ {static} ActivityProfileBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityProfileBinding bind(View)
+}
+class com.example.simon.databinding.ActivityAdminHomeBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout constraintLayout
++ ConstraintLayout constraintLayout2
++ ConstraintLayout constraintLayout3
++ ImageView imageView
++ ImageView imageView2
++ ConstraintLayout linearLayout
++ TextView textView
++ TextView textView2
++ TextView textView3
++ TextView textView4
++ ConstraintLayout getRoot()
++ {static} ActivityAdminHomeBinding inflate(LayoutInflater)
++ {static} ActivityAdminHomeBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityAdminHomeBinding bind(View)
+}
+class com.example.simon.databinding.ActivityCameraBinding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ ConstraintLayout constraintLayout1
++ ConstraintLayout constraintLayout2
++ ConstraintLayout constraintLayout3
++ ConstraintLayout constraintLayout4
++ ConstraintLayout constraintLayout5
++ ConstraintLayout constraintLayout6
++ ConstraintLayout constraintLayout7
++ ConstraintLayout constraintLayout8
++ ImageView imageView
++ ImageView imageView2
++ ImageView imageView3
++ ImageView imageView4
++ ImageView imageView5
++ ImageView imageView6
++ ImageView imageView7
++ ImageView imageView8
++ ImageView imageView9
++ ConstraintLayout linearLayout
++ TextView textView
++ TextView textView10
++ TextView textView11
++ TextView textView2
++ TextView textView3
++ TextView textView4
++ TextView textView6
++ TextView textView7
++ TextView textView8
++ TextView textView9
++ ConstraintLayout getRoot()
++ {static} ActivityCameraBinding inflate(LayoutInflater)
++ {static} ActivityCameraBinding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivityCameraBinding bind(View)
+}
+class com.example.simon.databinding.ActivitySearching3Binding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button detect
++ EditText editTextImage
++ Button getImage
++ ImageView imageView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ ConstraintLayout getRoot()
++ {static} ActivitySearching3Binding inflate(LayoutInflater)
++ {static} ActivitySearching3Binding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySearching3Binding bind(View)
+}
+class androidx.databinding.DataBinderMapperImpl {
+}
+class com.example.simon.databinding.ActivitySearching2Binding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button detect
++ EditText editTextImage
++ Button getImage
++ ImageView imageView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ ConstraintLayout getRoot()
++ {static} ActivitySearching2Binding inflate(LayoutInflater)
++ {static} ActivitySearching2Binding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySearching2Binding bind(View)
+}
+class com.example.simon.databinding.ActivitySearching1Binding {
+- ConstraintLayout rootView
++ BottomNavigationView bottomNavigationView
++ Button detect
++ EditText editTextImage
++ Button getImage
++ ImageView imageView
++ ConstraintLayout linearLayout
++ ConstraintLayout linearLayout2
++ TextView textView2
++ TextView textView3
++ ConstraintLayout getRoot()
++ {static} ActivitySearching1Binding inflate(LayoutInflater)
++ {static} ActivitySearching1Binding inflate(LayoutInflater,ViewGroup,boolean)
++ {static} ActivitySearching1Binding bind(View)
+}
+
+
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySearching8Binding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySearching7Binding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityLoginRoleBinding
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Searching5
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityRegisterBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySearching4Binding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityRegisterAdminBinding
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Recording
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySearching6Binding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySearching5Binding
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Profile
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityProfileManagerBinding
+com.example.simon.OnClickListener <|.. com.example.simon.RegisterAdmin
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.RegisterAdmin
+com.example.simon.OnClickListener <|.. com.example.simon.LoginAdmin
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.LoginAdmin
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityMessageManagerBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityLoginAdminBinding
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Camera
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.MessageManager
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Message
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Searching7
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityMessageBinding
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Searching4
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Searching1
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityLoginManagerBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityMessageAdminBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySplashBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySettingBinding
+com.example.simon.OnClickListener <|.. com.example.simon.LoginManager
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.LoginManager
+com.example.simon.OnClickListener <|.. com.example.simon.Register
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Register
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityMainBinding
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Searching8
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityRecordingBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityProfileAdminBinding
+androidx.databinding.DataBinderMapper <|-- com.example.simon.DataBinderMapperImpl
+com.example.simon.DataBinderMapperImpl +.. com.example.simon.DataBinderMapperImpl$InnerBrLookup
+com.example.simon.DataBinderMapperImpl +.. com.example.simon.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.MainActivity2
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityRegisterManagerBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ImageItemBinding
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.ProfileManager
+com.example.simon.OnClickListener <|.. com.example.simon.RegisterManager
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.RegisterManager
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Searching2
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.LoginRole
+com.example.simon.OnClickListener <|.. com.example.simon.MainActivity
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.MainActivity
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.SplashActivity
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Searching3
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Searching6
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.AdminHome
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.ProfileAdmin
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.MessageAdmin
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityMain2Binding
+androidx.appcompat.app.AppCompatActivity <|-- com.example.simon.Setting
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityProfileBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityAdminHomeBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivityCameraBinding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySearching3Binding
+androidx.databinding.MergedDataBinderMapper <|-- androidx.databinding.DataBinderMapperImpl
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySearching2Binding
+androidx.viewbinding.ViewBinding <|.. com.example.simon.databinding.ActivitySearching1Binding
+@enduml

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "325606079924",
+    "firebase_url": "https://simon-79c64-default-rtdb.firebaseio.com",
+    "project_id": "simon-79c64",
+    "storage_bucket": "simon-79c64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325606079924:android:abd545e6b7901c5df706e1",
+        "android_client_info": {
+          "package_name": "com.example.simon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325606079924-3kqk2gv3gcsv64u4b938jk0k0l1pi8n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOGwhchcYhmiUZkiv1gvczrGJgrjnH0lY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325606079924-2p8ftkf7002sgb60blils434dteitf4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
